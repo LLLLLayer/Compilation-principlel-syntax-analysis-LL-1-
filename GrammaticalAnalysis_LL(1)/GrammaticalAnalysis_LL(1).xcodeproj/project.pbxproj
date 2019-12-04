@@ -1,0 +1,350 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		782FA438238E87B60051E2AB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 782FA437238E87B60051E2AB /* AppDelegate.swift */; };
+		782FA43A238E87B60051E2AB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 782FA439238E87B60051E2AB /* ContentView.swift */; };
+		782FA43C238E87B70051E2AB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 782FA43B238E87B70051E2AB /* Assets.xcassets */; };
+		782FA43F238E87B70051E2AB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 782FA43E238E87B70051E2AB /* Preview Assets.xcassets */; };
+		782FA442238E87B70051E2AB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 782FA440238E87B70051E2AB /* Main.storyboard */; };
+		782FA44B238E88F10051E2AB /* GrammaticalAnalysis.swift in Sources */ = {isa = PBXBuildFile; fileRef = 782FA44A238E88F10051E2AB /* GrammaticalAnalysis.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		782FA434238E87B60051E2AB /* GrammaticalAnalysis_LL(1).app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "GrammaticalAnalysis_LL(1).app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		782FA437238E87B60051E2AB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		782FA439238E87B60051E2AB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		782FA43B238E87B70051E2AB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		782FA43E238E87B70051E2AB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		782FA441238E87B70051E2AB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		782FA443238E87B70051E2AB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		782FA444238E87B70051E2AB /* GrammaticalAnalysis_LL_1_.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = GrammaticalAnalysis_LL_1_.entitlements; sourceTree = "<group>"; };
+		782FA44A238E88F10051E2AB /* GrammaticalAnalysis.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GrammaticalAnalysis.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		782FA431238E87B60051E2AB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		782FA42B238E87B60051E2AB = {
+			isa = PBXGroup;
+			children = (
+				782FA436238E87B60051E2AB /* GrammaticalAnalysis_LL(1) */,
+				782FA435238E87B60051E2AB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		782FA435238E87B60051E2AB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				782FA434238E87B60051E2AB /* GrammaticalAnalysis_LL(1).app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		782FA436238E87B60051E2AB /* GrammaticalAnalysis_LL(1) */ = {
+			isa = PBXGroup;
+			children = (
+				782FA444238E87B70051E2AB /* GrammaticalAnalysis_LL_1_.entitlements */,
+				782FA443238E87B70051E2AB /* Info.plist */,
+				782FA437238E87B60051E2AB /* AppDelegate.swift */,
+				782FA439238E87B60051E2AB /* ContentView.swift */,
+				782FA44A238E88F10051E2AB /* GrammaticalAnalysis.swift */,
+				782FA43B238E87B70051E2AB /* Assets.xcassets */,
+				782FA440238E87B70051E2AB /* Main.storyboard */,
+				782FA43D238E87B70051E2AB /* Preview Content */,
+			);
+			path = "GrammaticalAnalysis_LL(1)";
+			sourceTree = "<group>";
+		};
+		782FA43D238E87B70051E2AB /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				782FA43E238E87B70051E2AB /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		782FA433238E87B60051E2AB /* GrammaticalAnalysis_LL(1) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 782FA447238E87B70051E2AB /* Build configuration list for PBXNativeTarget "GrammaticalAnalysis_LL(1)" */;
+			buildPhases = (
+				782FA430238E87B60051E2AB /* Sources */,
+				782FA431238E87B60051E2AB /* Frameworks */,
+				782FA432238E87B60051E2AB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "GrammaticalAnalysis_LL(1)";
+			productName = "GrammaticalAnalysis_LL(1)";
+			productReference = 782FA434238E87B60051E2AB /* GrammaticalAnalysis_LL(1).app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		782FA42C238E87B60051E2AB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1120;
+				LastUpgradeCheck = 1120;
+				ORGANIZATIONNAME = Layer;
+				TargetAttributes = {
+					782FA433238E87B60051E2AB = {
+						CreatedOnToolsVersion = 11.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 782FA42F238E87B60051E2AB /* Build configuration list for PBXProject "GrammaticalAnalysis_LL(1)" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 782FA42B238E87B60051E2AB;
+			productRefGroup = 782FA435238E87B60051E2AB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				782FA433238E87B60051E2AB /* GrammaticalAnalysis_LL(1) */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		782FA432238E87B60051E2AB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				782FA442238E87B70051E2AB /* Main.storyboard in Resources */,
+				782FA43F238E87B70051E2AB /* Preview Assets.xcassets in Resources */,
+				782FA43C238E87B70051E2AB /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		782FA430238E87B60051E2AB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				782FA43A238E87B60051E2AB /* ContentView.swift in Sources */,
+				782FA44B238E88F10051E2AB /* GrammaticalAnalysis.swift in Sources */,
+				782FA438238E87B60051E2AB /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		782FA440238E87B70051E2AB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				782FA441238E87B70051E2AB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		782FA445238E87B70051E2AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		782FA446238E87B70051E2AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		782FA448238E87B70051E2AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "GrammaticalAnalysis_LL(1)/GrammaticalAnalysis_LL_1_.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_ASSET_PATHS = "\"GrammaticalAnalysis_LL(1)/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "GrammaticalAnalysis_LL(1)/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = "-.GrammaticalAnalysis-LL-1-";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		782FA449238E87B70051E2AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "GrammaticalAnalysis_LL(1)/GrammaticalAnalysis_LL_1_.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_ASSET_PATHS = "\"GrammaticalAnalysis_LL(1)/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "GrammaticalAnalysis_LL(1)/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = "-.GrammaticalAnalysis-LL-1-";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		782FA42F238E87B60051E2AB /* Build configuration list for PBXProject "GrammaticalAnalysis_LL(1)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				782FA445238E87B70051E2AB /* Debug */,
+				782FA446238E87B70051E2AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		782FA447238E87B70051E2AB /* Build configuration list for PBXNativeTarget "GrammaticalAnalysis_LL(1)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				782FA448238E87B70051E2AB /* Debug */,
+				782FA449238E87B70051E2AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 782FA42C238E87B60051E2AB /* Project object */;
+}
